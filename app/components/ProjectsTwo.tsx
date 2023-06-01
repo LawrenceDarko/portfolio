@@ -1,0 +1,39 @@
+'use client'
+
+import ProjectTwoItem from "./ProjectTwoItem"
+
+
+
+const ProjectsTwo = () => {
+
+    const descriptions = {
+        desc1: 'VeganEats" is a stylish food ordering app designed for vegans. With a sleek, dark blue theme, it offers a seamless experience for users. The app consists of dedicated components such as a Riders App, Users App, Restaurant Dashboard, and Main Admin Dashboard. It can be easily accessed and installed through various platforms, catering to the needs of developers and enthusiasts alike.',
+        desc2: 'A cutting-edge website for Carisca Lab, a supply chain innovation lab. The website highlights their team of skilled developers and programmers, who work on groundbreaking solutions for supply chain optimization. It showcases their innovative projects, expertise, and services, attracting potential partners and clients in the industry.'
+    }
+
+    return (
+        <div id="section Works" className="flex flex-col justify-center gap-8 px-4 py-8 md:py-12 md:gap-28 md:px-10 lg:px-16 xl:px-36">
+        <div className="flex justify-start w-full">
+            <div className="flex flex-col justify-center">
+            <p className="text-xl leading-loose md:text-3xl">Latest Works</p>
+            <p className="text-[#92929A] text-xs md:text-sm">perfect solutions for digital experience</p>
+            </div>
+        </div>
+        <ProjectTwoItem image='cariscaa.png' title="CARISCA Lab" description={descriptions.desc2}/>
+        <ProjectTwoItem showRight image="vegancol.png" title="FindVegan" description={descriptions.desc1}/>
+        <ProjectTwoItem image="cariscaa.png" title="" description={descriptions.desc1}/>
+        <div className="flex justify-end w-full">
+            <div className="flex flex-col justify-center w-full md:w-[400px]">
+            <p className="mb-1 text-xl md:text-3xl leading-loose text-[#64F4AC]">ALL PROJECTS</p>
+            <p className="text-[#92929A] text-xs md:text-sm">
+                * Some projects do not allow publish by NDA, if you want to see more{" "}
+                <span className="text-[#64F4AC] underline cursor-pointer">contact</span>
+            </p>
+            <a href="/pdf/Resume.pdf" className="mt-5 text-white cursor-pointer">View Full Résumé</a>
+            </div>
+        </div>
+        </div>
+    )
+}
+
+export default ProjectsTwo;
