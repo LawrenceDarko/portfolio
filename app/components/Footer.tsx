@@ -1,3 +1,5 @@
+'use client'
+
 import { Inter } from "next/font/google"
 import { MdOutlineCopyright } from "react-icons/md";
 import NavLinks from "./NavLinks";
@@ -10,7 +12,7 @@ const Footer = () => {
         <div id="section Contact" className="bg-[#222326] w-full h-auto py-28 px-4 md:px-8 lg:px-10 xl:px-36">
             <div className="flex flex-col justify-between lg:items-center lg:h-[60vh] gap-6 lg:flex-row md:gap-20">
                 <div className="flex flex-col justify-between w-full h-full md:w-2/3">
-                    <p className="text-xl md:text-4xl">Let's make something amazing together.</p>
+                    <p className="text-xl md:text-4xl">Let&apos;s make something amazing together.</p>
                     <p className="mb-12 text-xl md:text-4xl md:mb-28">Start by <a className="text-[#64F4AC] underline cursor-pointer" href="mailto:darkolawrence@gmail.com">saying hi</a></p>
                     <div className="flex flex-row items-center gap-4 md:gap-8">
                         <p className={`${inter.className} text-white font-thin cursor-pointer text-lg md:text-3xl`}>Lawrence <span className="font-semibold">Darko</span></p>

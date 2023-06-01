@@ -16,10 +16,10 @@ function Header() {
         if(isInView){
             mainControls.start('visible')
         }
-    }, [isInView])
+    }, [isInView, mainControls])
 
     return (
-        <div ref={ref} className="h-full xl:h-[95vh] bg-[#2D2E32] pt-16">
+        <div ref={ref} className="h-full w-full xl:h-[95vh] bg-[#2D2E32] pt-16">
             <motion.div 
                 variants={{
                     hidden: {opacity: 0, translateY: -50},
@@ -28,7 +28,7 @@ function Header() {
                 initial={'hidden'}
                 animate={mainControls}
                 exit={{ opacity: 0, x: -20 }}
-                transition={{ease: 'anticipate', duration: 2, delay: 1.8 }} 
+                transition={{ease: 'easeIn', duration: 1.5, delay: 0.8 }} 
                 className="flex flex-col justify-between px-4 md:flex-row xl:px-36 md:px-10 sm:px-2">
                 <div className="flex flex-col w-full md:w-1/2">
                     <div className="relative flex flex-col justify-center h-full gap-8 md:gap-10 lg:gap-12">
@@ -45,7 +45,7 @@ function Header() {
                         <div onClick={()=>setShowModal(true)}>
                             <p className="cursor-pointer">Enter my Metaverse here!</p>
                         </div>
-                        <p className="text-[#64F4AC] font-normal underline text-xl pt-8 cursor-pointer">LET'S CHAT!</p>
+                        <p className="text-[#64F4AC] font-normal underline text-xl pt-8 cursor-pointer">LET&apos;S CHAT!</p>
                     </div>
                     <div className="flex flex-col gap-8 mb-12 md:flex-row md:gap-16">
                         <div className="flex flex-row items-center">

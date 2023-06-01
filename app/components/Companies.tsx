@@ -25,7 +25,7 @@ const Companies = () => {
         if(isInView){
             mainControls.start('visible')
         }
-    }, [isInView])
+    }, [isInView, mainControls])
     
 
     return (
@@ -40,13 +40,13 @@ const Companies = () => {
                 <motion.div
                     key={index}
                     variants={{
-                        hidden: {opacity: 0, y: 50},
+                        hidden: {opacity: 0, y: 100},
                         visible: { opacity: 1, y: 0 }
                     }}
                     initial={'hidden'}
                     animate={mainControls}
                     exit={{ opacity: 0, y: -20 }}
-                    transition={{ duration: 0.5 }}
+                    transition={{ duration: 1, delay: 0.1 }}
                 >
                 <Image src={src} height='70' width='170' alt="companies" />
                 </motion.div>

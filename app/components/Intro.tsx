@@ -19,7 +19,7 @@ function Intro() {
         if(isInView){
             mainControls.start('visible')
         }
-    }, [isInView])
+    }, [isInView, mainControls])
 
     return (
         <div
@@ -77,21 +77,21 @@ function Intro() {
                     Introduction
                 </p>
                 <p className="text-xl font-normal md:text-4xl leading-12">
-                    Hello! I'm Lawrence Darko
+                    Hello! I&apos;m Lawrence Darko
                 </p>
                 <p className="mt-6 text-lg italic md:text-2xl">
                     Exceptional designs are born from captivating stories
                 </p>
                 <p className="text-sm md:text-base text-[#92929A] mt-6 leading-6">
                     Having embarked on my journey as a freelance developer nearly
-                    eight years ago, I've had the privilege of remotely collaborating
+                    eight years ago, I&apos;ve had the privilege of remotely collaborating
                     with agencies, providing valuable consultations to startups, and
                     working alongside talented individuals to craft cutting-edge
                     digital products for businesses and consumers alike. With a quiet
                     confidence and an insatiable curiosity, I continuously strive to
                     enhance my expertise, tackling design challenges and solving
-                    problems one project at a time. If you're looking for a full-stack
-                    software developer or a mobile app developer, you've come to the
+                    problems one project at a time. If you&apos;re looking for a full-stack
+                    software developer or a mobile app developer, you&apos;ve come to the
                     right place!
                 </p>
             </motion.div>

@@ -72,7 +72,7 @@ import { useRef, useEffect, useState } from "react";
         if(isInView){
             mainControls.start('visible')
         }
-    }, [isInView])
+    }, [isInView, mainControls])
 
 
     return (

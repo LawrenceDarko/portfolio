@@ -35,7 +35,7 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title,
         if(isInView){
             mainControls.start('visible')
         }
-    }, [isInView])
+    }, [isInView, mainControls])
 
     return (
         <motion.div
@@ -46,7 +46,7 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title,
             initial={'hidden'}
             animate={mainControls}
             exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
+            transition={{ duration: 1, delay: 0.2 }}
         >
             <div ref={ref} className="h-[447px] w-full flex relative">
                 <div className={`${showRight? firstCHoice.imageDiv : secondChoice.imageDiv}`}>
