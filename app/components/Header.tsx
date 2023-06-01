@@ -61,7 +61,7 @@ function Header() {
                 <div className="h-[400px] md:h-[610px] w-full md:w-[50%]">
                 <Image src="/images/portfolioh.png" height={1000} width={1000} alt="headerImage" className="imgb" />
                 </div>
-            </motion.div>
+            </motion.div> 
         </div>
     );
 }
