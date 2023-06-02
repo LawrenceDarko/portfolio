@@ -15,10 +15,13 @@ const Footer = () => {
                     <p className="text-xl md:text-4xl">Let&apos;s make something amazing together.</p>
                     <p className="mb-12 text-xl md:text-4xl md:mb-28">Start by <a className="text-[#64F4AC] underline cursor-pointer" href="mailto:darkolawrence@gmail.com">saying hi</a></p>
                     <div className="flex flex-row items-center gap-4 md:gap-8">
-                        <p className={`${inter.className} text-white font-thin cursor-pointer text-lg md:text-3xl`}>Lawrence <span className="font-semibold">Darko</span></p>
+                        {/* <p className={`${inter.className} text-white font-thin cursor-pointer text-lg md:text-3xl`}>Lawrence <span className="font-semibold">Darko</span></p>
                         <div className="flex items-center justify-center pt-2 pr-3">
-                        <p className="text-[10px] pr-2"><MdOutlineCopyright /></p>
-                        <p className={`font-extralight text-sm md:text-base text-[#92929A]`}>2023. All Rights Reserved</p>
+                            <p className="text-[10px] pr-2"><MdOutlineCopyright /></p>
+                            <p className={`font-extralight text-sm md:text-base text-[#92929A]`}>2023. All Rights Reserved</p>
+                        </div> */}
+                        <div className="md:pr-72">
+                            <p className="font-extralight text-sm md:text-base text-[#92929A]">Inspired by various designs, I created and coded a captivating design using <span className="font-semibold text-[#bebec5]">Next.js, Tailwind CSS, and Framer Motion</span>. The typography is set in the stylish <span className="font-semibold text-[#bebec5]">Space Mono</span> typeface, adding a modern touch.</p>
                         </div>
                     </div>
                 </div>
