@@ -24,7 +24,7 @@ const Modal = () => {
                     <section className="flex items-center justify-center starMain">
                         <section className="flex flex-col items-center justify-center gap-3 p-2 rounded-md cursor-pointer star-wars-skew">
                             <section className="flex items-center justify-center p-1">
-                                <h1 className="mb-10 text-4xl font-bold text-center text-gray-700">These are my stacks</h1>
+                                <h1 className="mb-10 text-4xl font-bold text-center text-gray-700">Look! The infinity Stones...</h1>
                             </section>
                             <section className="flex flex-wrap items-center justify-center gap-4">
                                 <section className="flex items-center justify-center w-52 bg-[#64F4AC] bg-opacity-40 rounded-md h-36 backdrop-blur-md">

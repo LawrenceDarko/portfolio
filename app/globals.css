@@ -134,3 +134,19 @@ p{
 .linksOnHover {
   @apply transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300
 }
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #04c8de, 0 0 40px #04c8de, 0 0 50px #04c8de, 0 0 60px #04c8de;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #04c8de, 0 0 40px #04c8de, 0 0 50px #04c8de, 0 0 60px #04c8de;
+  }
+}
+
+.glowing-text {
+  animation: glowing 2s infinite ease-in-out;
+}
