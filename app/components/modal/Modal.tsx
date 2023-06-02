@@ -10,7 +10,7 @@ const Modal = () => {
 
     return (
         <div className={`${showModal===false? 'hidden' : ''} fixed z-20 flex items-center justify-center w-full h-full bg-black backdrop-blur-md bg-opacity-40`}>
-            <div className="absolute cursor-pointer top-5 right-5">
+            <div className="absolute z-50 cursor-pointer top-5 right-5">
                 <p onClick={()=>setShowModal(false)}>X</p>
             </div>
             <div className="theMagic">
