@@ -35,7 +35,7 @@ const ProjectsTwo = () => {
             </div>
             <ProjectTwoItem image='cariscaa.png' title="CARISCA Lab" description={descriptions.desc2}/>
             <ProjectTwoItem showRight image="vegancol.png" title="FindVegan" description={descriptions.desc1}/>
-            <ProjectTwoItem image="netflix.png" title="Netflix Clone" description={descriptions.desc1}/>
+            <ProjectTwoItem image="netflix.png" title="Netflix Clone" description={descriptions.desc3}/>
             <div ref={ref} className="flex justify-end w-full">
                 <motion.div
                     variants={{
