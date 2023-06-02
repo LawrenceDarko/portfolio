@@ -40,7 +40,8 @@ function Header() {
                             <p className="text-4xl md:text-5xl lg:text-6xl">Show me the code</p>
                         </div>
                         <div className="w-full md:w-[400px]">
-                            <p className="text-[#92929A]">I design and code beautifully amazing things, and I love what I do</p>
+                            {/* <p className="text-[#92929A]">I design and code beautifully amazing things, and I love what I do</p> */}
+                            <p className="text-[#92929A]">I specialize in JavaScript, C++, Java and Python. Proficient in machine learning</p>
                         </div>
                         <div onClick={()=>setShowModal(true)}>
                             <p className="cursor-pointer glowing-text">Enter the multiverse here!</p>

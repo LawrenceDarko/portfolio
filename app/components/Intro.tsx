@@ -45,19 +45,19 @@ function Intro() {
                 />
                 <IntroCards
                     title="Back-End"
-                    description="I develop backend with coding super smooth"
+                    description="I develop backend with super amazing frameworks with security in mind"
                     numProject="More projects"
                     icon={IoSettingsOutline}
                 />
                 <IntroCards
                     title="Mobile Apps"
-                    description="I develop frontend with coding super smooth"
+                    description="I develop mobile apps with the latest technologies"
                     numProject="More projects"
                     icon={CiMobile3}
                 />
                 <IntroCards
                     title="Machine Learning"
-                    description="I develop frontend with coding super smooth"
+                    description="I develop modern machine learning models"
                     numProject="More projects"
                     icon={FaRobot}
                 />
