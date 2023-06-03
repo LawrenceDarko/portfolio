@@ -1,4 +1,5 @@
 import './globals.css'
+import { Analytics } from '@vercel/analytics/react';
 import { Space_Mono } from 'next/font/google'
 import { Nunito } from 'next/font/google'
 import { Roboto_Mono } from 'next/font/google'
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body className={`${space.className} bg-[#25262A]`}>
         <Modal />
         <Navbar />
+        <Analytics />
           {children}
       </body>
     </html>
