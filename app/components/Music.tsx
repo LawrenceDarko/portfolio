@@ -18,17 +18,17 @@ const Music = () => {
     }
     };
     return (
-        // <div className='button-52'>
-        //     <audio ref={audioRef} src="/music/sound.mp3" />
-        //     <p className='' onClick={handlePlayPause}>{isPlaying ? 'Sound On' : 'Sound Off'}</p>
-        // </div>
-        <div className=''>
-            <button onClick={handlePlayPause} className="sound-button">
-                <audio ref={audioRef} loop src="/music/sound.mp3" />
-                <span className="sound-icon"></span>
-                <span className="sound-text">{isPlaying ? 'Sound On' : 'Sound Off'}</span>
-            </button>
+        <div className='button-52'>
+            <audio ref={audioRef} src="/music/sound.mp3" />
+            <p className='' onClick={handlePlayPause}>{isPlaying ? 'Sound On' : 'Sound Off'}</p>
         </div>
+        // <div className=''>
+        //     <button onClick={handlePlayPause} className="sound-button md:w-[165px] md:h-[50px]">
+        //         <audio ref={audioRef} loop src="/music/sound.mp3" />
+        //         <span className="sound-icon"></span>
+        //         <span className="sound-text">{isPlaying ? 'Sound On' : 'Sound Off'}</span>
+        //     </button>
+        // </div>
     );
 };
 
