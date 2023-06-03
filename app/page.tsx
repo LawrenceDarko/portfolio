@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import ProjectsTwo from './components/ProjectsTwo'
 import ProjectTwoC from './components/ProjectTwoC'
 import { useInView } from 'framer-motion'
+import Music from './components/Music'
 
 
 
@@ -26,9 +27,7 @@ export default function Home() {
       {/* <ProjectsTwo /> */}
       {/* <ProjectsTwo showRight/> */}
       <Footer />
-      {/* <audio id="myAudio" autoPlay loop controls>
-        <source src="/music/zion.mp3"/>
-      </audio> */}
+      {/* <Music /> */}
     </div>
   )
 }

@@ -44,7 +44,7 @@ function Header() {
                             <p className="text-[#92929A]">I specialize in JavaScript, C++, Java and Python. Proficient in machine learning</p>
                         </div>
                         <div onClick={()=>setShowModal(true)}>
-                            <p className="cursor-pointer glowing-text">Enter the multiverse here!</p>
+                            <p className="cursor-pointer glowing-text">A portal to the Multiverse!</p>
                         </div>
                         <a href="mailto:darkolawrence@gmail.com" className="text-[#64F4AC] font-normal underline text-xl mb-5 cursor-pointer">LET&apos;S CHAT!</a>
                     </div>
@@ -59,7 +59,7 @@ function Header() {
                         </div>
                     </div>
                 </div>
-                <div className="h-[400px] md:h-[610px] w-full md:w-[50%]">
+                <div className="h-[400px] md:h-[610px] w-full md:w-[50%] relative">
                 <Image src="/images/portfolioh.png" height={1000} width={1000} alt="headerImage" className="imgb" />
                 </div>
             </motion.div> 

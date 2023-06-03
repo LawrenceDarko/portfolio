@@ -150,3 +150,54 @@ p{
 .glowing-text {
   animation: glowing 2s infinite ease-in-out;
 }
+
+
+/* CSS */
+.sound-button {
+  /* position: relative; */
+  width: 165px;
+  height: 50px;
+  background-color: #ece8e0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  transition: background-color 0.3s ease;
+  /* box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.5),
+    -5px -5px 10px rgba(255, 255, 255, 0.5); */
+  overflow: hidden;
+}
+
+.sound-button:hover {
+  background-color: #d6dbe3;
+}
+
+.sound-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(163, 177, 198, 0.5),
+    -2px -2px 5px rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.sound-button:hover .sound-icon {
+  background-color: #f1f1f1;
+}
+
+.sound-text {
+  margin-left: 15px;
+  color: #6b7c93;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.sound-button:hover .sound-waves {
+  opacity: 1;
+}
+

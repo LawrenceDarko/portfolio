@@ -3,6 +3,7 @@ import { FiGithub } from "react-icons/fi";
 import { HiOutlineLink } from "react-icons/hi";
 import { motion, AnimatePresence, useInView, useAnimation } from 'framer-motion';
 import { useRef, useEffect } from "react";
+import Image from "next/image";
 
 
 interface ProjectTwoItemProps {
@@ -10,9 +11,10 @@ interface ProjectTwoItemProps {
     image: string;
     title: string;
     description: string;
+    githublink?: string;
 }
 
-const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title, description}) => {
+const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title, description, githublink}) => {
 
     const ref = useRef(null);
     const isInView = useInView(ref);
@@ -50,7 +52,7 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title,
         >
             <div ref={ref} className="h-[447px] w-full flex relative">
                 <div className={`${showRight? firstCHoice.imageDiv : secondChoice.imageDiv}`}>
-                    <img src={`/images/${image}`} className="relative object-cover w-full h-full"/>
+                    <Image fill alt="project image" src={`/images/${image}`} className="relative object-cover w-full h-full"/>
                     <div className="absolute top-0 left-0 w-full h-full backdrop-blur-sm md:backdrop-blur-0 bg-[#000000ac] md:bg-[#64F4AC] bg-opacity-60  md:bg-opacity-40 hover:bg-opacity-0">
                         <div className="relative md:hidden">
                             <div className="absolute flex flex-col gap-4 px-3 py-12 z-2">
@@ -65,7 +67,7 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title,
                                     {techStack.map((stack) => <p className="text-xs leading-3 text-left text-[#92929A]" key={stack}>{stack}</p>)}
                                 </div>
                                 <div className="flex gap-5">
-                                    <FiGithub className="text-2xl text-white"/>
+                                    <a href={githublink}><FiGithub className="text-2xl text-white"/></a>
                                     <HiOutlineLink className="text-2xl text-white"/>
                                 </div>
                             </div>
@@ -86,7 +88,7 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title,
                         {techStack.map((stack) => <p key={stack}>{stack}</p>)}
                     </div>
                     <div className="flex gap-5">
-                        <FiGithub className="text-2xl text-white"/>
+                        <a href={githublink}><FiGithub className="text-2xl text-white"/></a>
                         <HiOutlineLink className="text-2xl text-white"/>
                     </div>
                 </div>

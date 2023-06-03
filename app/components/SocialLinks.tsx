@@ -15,19 +15,19 @@ const SocialLinks: React.FC<SocialLinksProps> = ({onFooter}) => {
                 <AiOutlineTwitter className="text-white text-[17px] socialIcons"/>
                 {!onFooter && <p>Twitter</p>}
             </div>
-            <div className="flex flex-row items-center justify-center gap-2 cursor-pointer">
+            <a href="https://github.com/LawrenceDarko" className="flex flex-row items-center justify-center gap-2 cursor-pointer">
                 <AiFillGithub className="text-white text-[17px] socialIcons"/>
                 {!onFooter && <p>Github</p>}
-            </div>
-            <div className="flex flex-row items-center justify-center gap-1 cursor-pointer">
+            </a>
+            <a href="maito:darkolawrence@gmail.com" className="flex flex-row items-center justify-center gap-1 cursor-pointer">
                 <HiOutlineMail className="text-white text-[17px] socialIcons"/>
-            </div>
-            {onFooter && <div className="flex flex-row items-center justify-center gap-1 cursor-pointer">
+            </a>
+            {onFooter && <a href="https://www.instagram.com/ampem_dev/" className="flex flex-row items-center justify-center gap-1 cursor-pointer">
                 <FiInstagram className="text-white text-[17px] socialIcons"/>
-            </div>}
-            {onFooter && <div className="flex flex-row items-center justify-center gap-1 cursor-pointer">
+            </a>}
+            {onFooter && <a href="https://www.linkedin.com/in/lawrence-darko-baah-113316211/" className="flex flex-row items-center justify-center gap-1 cursor-pointer">
                 <AiOutlineLinkedin className="text-white text-[17px] socialIcons"/>
-            </div>}
+            </a>}
         </div>
     )
 }

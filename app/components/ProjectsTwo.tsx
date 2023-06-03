@@ -35,7 +35,7 @@ const ProjectsTwo = () => {
             </div>
             <ProjectTwoItem image='cariscaa.png' title="CARISCA Lab" description={descriptions.desc2}/>
             <ProjectTwoItem showRight image="vegancol.png" title="FindVegan" description={descriptions.desc1}/>
-            <ProjectTwoItem image="netflix.png" title="Netflix Clone" description={descriptions.desc3}/>
+            <ProjectTwoItem image="netflix.png" title="Netflix Clone" description={descriptions.desc3} githublink="https://github.com/LawrenceDarko/netflix-clone"/>
             <div ref={ref} className="flex justify-end w-full">
                 <motion.div
                     variants={{
@@ -50,7 +50,7 @@ const ProjectsTwo = () => {
                     <p className="mb-1 text-xl md:text-3xl leading-loose text-[#64F4AC]">ALL PROJECTS</p>
                     <p className="text-[#92929A] text-xs md:text-sm">
                         * Some projects do not allow publish by NDA, if you want to see more{" "}
-                        <span className="text-[#64F4AC] underline cursor-pointer">contact</span>
+                        <a href="mailto:darkolawrence@gmail.com" className="text-[#64F4AC] underline cursor-pointer">contact</a>
                     </p>
                     <a href="/pdf/Resume.pdf" className="mt-5 text-white cursor-pointer">View Full Résumé</a>
                 </motion.div>

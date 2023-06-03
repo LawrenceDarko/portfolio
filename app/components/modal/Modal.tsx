@@ -4,6 +4,7 @@ import { useState } from "react"
 import { useGeneralContext } from "@/app/contexts/GeneralContext"
 import Image from "next/image"
 import { Inter } from "next/font/google"
+import Music from "../Music"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +16,9 @@ const Modal = () => {
         <div className={`${showModal===false? 'hidden' : ''} fixed z-20 flex items-center justify-center w-full h-full bg-black backdrop-blur-md bg-opacity-40`}>
             <div className="absolute z-50 cursor-pointer top-5 right-5">
                 <p onClick={()=>setShowModal(false)}>X</p>
+            </div>
+            <div className="absolute z-50 cursor-pointer top-5 left-5">
+                <Music />
             </div>
             <div className="theMagic">
                 <div></div>
