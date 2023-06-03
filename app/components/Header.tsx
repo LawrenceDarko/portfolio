@@ -28,7 +28,7 @@ function Header() {
                 initial={'hidden'}
                 animate={mainControls}
                 exit={{ opacity: 0, x: -20 }}
-                transition={{ease: 'easeIn', duration: 1.5, delay: 0.8 }} 
+                transition={{ease: 'easeIn', duration: 1, delay: 1.8 }} 
                 className="flex flex-col justify-between px-4 md:flex-row xl:px-36 md:px-10 sm:px-2">
                 <div className="flex flex-col w-full md:w-1/2">
                     <div className="relative flex flex-col justify-center h-full gap-8 md:gap-10 lg:gap-12">
