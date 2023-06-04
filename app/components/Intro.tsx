@@ -26,7 +26,7 @@ function Intro() {
             id="section Intro"
             className="w-full h-auto p-4 md:p-8 lg:p-10 xl:p-28 2xl:p-36"
         >
-        <div ref={ref} className="flex flex-col items-center justify-between gap-4 lg:flex-row md:gap-8 lg:gap-10 xl:gap-12 2xl:gap-20">
+        <div ref={ref} className="flex flex-col justify-between gap-4 lg:flex-row md:gap-8 lg:gap-10 xl:gap-12 2xl:gap-20">
             <motion.div
                 variants={{
                     hidden: {opacity: 0, x: -100},
