@@ -5,7 +5,7 @@ import { CiMobile3 } from "react-icons/ci";
 import { HiOutlineCode } from "react-icons/hi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { FaRobot } from "react-icons/fa";
-import { motion, AnimatePresence, useInView, useAnimation } from 'framer-motion';
+import { motion, useInView, useAnimation } from 'framer-motion';
 import { useRef, useEffect } from "react";
 
 function Intro() {

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@frank-mayer/react-tag-cloud": "^1.2.1",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
@@ -19,14 +20,17 @@
     "framer-motion": "^10.12.16",
     "next": "13.4.4",
     "postcss": "8.4.24",
+    "randomcolor": "^0.6.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icon-cloud": "^4.1.4",
     "react-icons": "^4.9.0",
     "react-scroll": "^1.8.9",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@types/randomcolor": "^0.5.7",
     "@types/react-scroll": "^1.8.7"
   }
 }

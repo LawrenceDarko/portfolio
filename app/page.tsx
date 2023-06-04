@@ -9,6 +9,7 @@ import ProjectsTwo from './components/ProjectsTwo'
 import ProjectTwoC from './components/ProjectTwoC'
 import { useInView } from 'framer-motion'
 import Music from './components/Music'
+import SkillsCanvas from './components/SkillsCanvas'
 
 
 
@@ -21,13 +22,12 @@ export default function Home() {
     <div className='flex flex-col items-center'>
       <Header />
       <Intro />
+      <SkillsCanvas />
       <Companies />
       {/* <Projects /> */}
       <ProjectsTwo/>
-      {/* <ProjectsTwo /> */}
-      {/* <ProjectsTwo showRight/> */}
       <Footer />
-      {/* <Music /> */}
+      
     </div>
   )
 }
