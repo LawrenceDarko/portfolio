@@ -80,7 +80,7 @@ function Intro() {
                     Hello! I&apos;m Lawrence Darko
                 </p>
                 <p className="mt-6 text-lg italic md:text-2xl">
-                    Exceptional designs are born from captivating stories
+                    Exceptional softwares are born from captivating inspirations
                 </p>
                 <p className="text-sm md:text-base text-[#92929A] mt-6 leading-6">
                     Having embarked on my journey as a freelance developer nearly

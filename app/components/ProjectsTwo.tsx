@@ -1,7 +1,7 @@
 'use client'
 
 import ProjectTwoItem from "./ProjectTwoItem"
-import { motion, AnimatePresence, useInView, useAnimation } from 'framer-motion';
+import { motion, useInView, useAnimation } from 'framer-motion';
 import { useRef, useEffect } from "react";
 
 
