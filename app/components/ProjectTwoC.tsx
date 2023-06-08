@@ -1,5 +1,3 @@
-'use client'
-
 import { FiGithub } from "react-icons/fi";
 import { HiOutlineLink } from "react-icons/hi";
 

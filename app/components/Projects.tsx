@@ -1,5 +1,3 @@
-'use client'
-
 import ProjectPreview from "./ProjectPreview"
 
 const Projects = () => {

@@ -13,6 +13,7 @@ import { GeneralContextProvider } from './contexts/GeneralContext'
 export const metadata = {
   title: 'Lawrence Darko',
   description: 'Personal porfolio website',
+  keywords: ["Portfolio", "JavaScript", "TypeScript"]
 }
 
 const font = Nunito({
