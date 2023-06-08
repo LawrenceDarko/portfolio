@@ -39,25 +39,25 @@ function Intro() {
                 className="flex flex-col justify-between h-full gap-3 p-0">
                 <IntroCards
                     title="Front-End"
-                    description="I develop frontend with coding super smooth"
+                    description="Delivering seamless user interfaces with expertise in front-end development."
                     numProject="More projects"
                     icon={HiOutlineCode}
                 />
                 <IntroCards
                     title="Back-End"
-                    description="I develop backend with super amazing frameworks with security in mind"
+                    description="Developing secure and high-performance systems with proficiency in using top frameworks."
                     numProject="More projects"
                     icon={IoSettingsOutline}
                 />
                 <IntroCards
                     title="Mobile Apps"
-                    description="I develop mobile apps with the latest technologies"
+                    description="Creating innovative mobile applications by leveraging cutting-edge technologies"
                     numProject="More projects"
                     icon={CiMobile3}
                 />
                 <IntroCards
                     title="Machine Learning"
-                    description="I develop modern machine learning models"
+                    description="Building advanced models and pushing the boundaries of artificial intelligence."
                     numProject="More projects"
                     icon={FaRobot}
                 />

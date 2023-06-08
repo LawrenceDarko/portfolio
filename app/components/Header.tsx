@@ -50,7 +50,7 @@ function Header() {
                     </div>
                     <div className="flex flex-col gap-8 mb-12 md:flex-row md:gap-16">
                         <div className="flex flex-row items-center">
-                            <p className="pr-1 text-4xl md:text-5xl">6</p>
+                            <p className="pr-1 text-4xl md:text-5xl">7</p>
                             <p className="font-thin text-[#92929A] leading-5">YEARS<br /> EXPERIENCE</p>
                         </div>
                         <div className="flex flex-row items-center">
