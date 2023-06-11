@@ -32,7 +32,7 @@ const Companies = () => {
         <div className="w-full h-auto p-4 md:p-8 lg:p-10 xl:p-28 2xl:p-36">
         <div className="flex flex-col items-center justify-center w-full mb-10 md:items-start">
             <p className="text-xl leading-loose md:text-3xl">Institutions</p>
-            <p className="text-[#92929A] text-xs md:text-sm">These are some institutions I've worked with</p>
+            <p className="text-[#92929A] text-xs md:text-sm">These are some institutions I&apos;ve worked with</p>
         </div>
         <AnimatePresence>
             <div ref={ref} className="flex flex-row flex-wrap items-center justify-center gap-20 opacity-40">
