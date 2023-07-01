@@ -10,6 +10,7 @@ import ProjectTwoC from './components/ProjectTwoC'
 import { useInView } from 'framer-motion'
 import Music from './components/Music'
 import SkillsCanvas from './components/SkillsCanvas'
+import CompaniesTwo from './components/CompaniesTwo'
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Intro />
       <SkillsCanvas />
       <Companies />
+      {/* <CompaniesTwo /> */}
       {/* <Projects /> */}
       <ProjectsTwo/>
       <Footer />

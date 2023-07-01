@@ -34,10 +34,10 @@ import { useRef, useEffect, useState } from "react";
     }
 
     interface LinkData {
-    to: string;
-    text: string;
-    offset: number;
-    duration?: number;
+        to: string;
+        text: string;
+        offset: number;
+        duration?: number;
     }
 
     const NavLinks: React.FC<NavLinksProps> = ({ onFooter }) => {

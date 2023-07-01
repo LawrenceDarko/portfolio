@@ -18,6 +18,7 @@ const Companies = () => {
         '/images/cariscalab.png',
         '/images/luminocity.png',
         '/images/knust.png',
+        '/images/payswitch.png',
         '/images/usaid.png'
     ];
 
