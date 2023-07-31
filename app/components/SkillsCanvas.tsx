@@ -38,7 +38,6 @@ const SkillsCanvas = () => {
                             "Next.js",
                             "ESLint",
                             "Node.js",
-                            "Framer Motion",
                         ]}
                     </TagCloud>
                 </div>
