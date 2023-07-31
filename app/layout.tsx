@@ -6,6 +6,8 @@ import { Roboto_Mono } from 'next/font/google'
 import Navbar from './components/Navbar'
 import Modal from './components/modal/Modal'
 import { GeneralContextProvider } from './contexts/GeneralContext'
+import { ThemeProvider } from "next-themes"
+import Providers from './components/providers';
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -31,15 +33,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <GeneralContextProvider>
-    <html lang="en">
-      <body className={`${space.className} bg-[#25262A]`}>
-        <Modal />
-        <Navbar />
-        <Analytics />
-          {children}
-      </body>
-    </html>
-    </GeneralContextProvider>
+      <GeneralContextProvider>
+        <html lang="en">
+          <body className={`${space.className} bg-[#25262A]`}>
+            <Providers>
+                <Modal />
+                <Navbar />
+                <Analytics />
+                  {children}
+              </Providers>
+          </body>
+        </html>
+      </GeneralContextProvider>
   )
 }

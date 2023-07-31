@@ -36,7 +36,7 @@ const Companies = () => {
             <p className="text-[#92929A] text-xs md:text-sm">These are some institutions I&apos;ve worked with</p>
         </div>
         <AnimatePresence>
-            <div ref={ref} className="flex flex-row flex-wrap items-center justify-center gap-20 opacity-40">
+            <div ref={ref} className="flex flex-row flex-wrap items-center justify-center w-full gap-20 opacity-40">
             {images.map((src, index) => (
                 <motion.div
                     key={index}
@@ -48,8 +48,9 @@ const Companies = () => {
                     animate={mainControls}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 1, delay: 0.1 }}
+                    // className="w-[160px] h-[75px]"
                 >
-                <Image src={src} height='70' width='170' alt="companies" />
+                <Image src={src} className="object-contain" height='70' width='170' alt="companies" />
                 </motion.div>
             ))}
             </div>

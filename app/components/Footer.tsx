@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import { MdOutlineCopyright } from "react-icons/md";
 import NavLinks from "./NavLinks";
 import SocialLinks from "./SocialLinks";
+import ToggleButton from "./ToggleButton";
 
 const inter = Inter({ subsets: ['latin'] })
 

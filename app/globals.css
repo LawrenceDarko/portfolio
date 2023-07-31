@@ -12,8 +12,9 @@ body,
 }
 
 p{
-  color: white;
+  color: #fff;
 }
+
 
 .navLinks p:hover{
   color: #64F4AC;
@@ -23,6 +24,16 @@ p{
 .socialIcons:hover {
   @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-[2] hover:text-[#64F4AC] duration-300
 }
+
+/* @layer base{
+  body {
+      @apply dark:bg-[#25262A] bg-white
+  }
+
+  p{
+    @apply text-gray-500 dark:text-white
+  }
+} */
 
 .navLinks p{
   font-size: 13px;

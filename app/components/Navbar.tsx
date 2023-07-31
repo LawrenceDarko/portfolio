@@ -4,6 +4,7 @@ import NavLinks from "./NavLinks"
 import SocialLinks from "./SocialLinks"
 import { motion, useInView, useAnimation } from 'framer-motion';
 import { useRef, useEffect } from "react";
+import ToggleButton from "./ToggleButton";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -38,6 +39,7 @@ const Navbar = () => {
                         </motion.p>
                         <NavLinks />
                         <SocialLinks />
+                        {/* <ToggleButton /> */}
                     </div>
                 </div>
             </div>
