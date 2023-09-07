@@ -12,9 +12,11 @@ interface ProjectTwoItemProps {
     title: string;
     description: string;
     githublink?: string;
+    projectLink?: string;
+    techStack?: string[];
 }
 
-const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title, description, githublink}) => {
+const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({techStack, showRight, image, title, description, githublink, projectLink}) => {
 
     const ref = useRef(null);
     const isInView = useInView(ref);
@@ -31,7 +33,7 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title,
         detailsDiv: 'gap-8 w-[50%] h-full z-2 absolute right-0 bg-opacity-10 md:flex flex-col items-end justify-center'
     }
 
-    const techStack = ['React', 'Styled Coomponent', 'Tailwind CSS', 'Vercel']
+    // const techStack = ['React', 'Styled Coomponent', 'Tailwind CSS', 'Vercel']
 
     useEffect(() => {
         if(isInView){
@@ -64,11 +66,11 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title,
                                     </p>
                                 </div>
                                 <div className="flex flex-row flex-wrap items-start gap-5">
-                                    {techStack.map((stack) => <p className="text-xs leading-3 text-left text-[#92929A]" key={stack}>{stack}</p>)}
+                                    {techStack && techStack.map((stack) => <p className="text-xs leading-3 text-left text-[#92929A]" key={stack}>{stack}</p>)}
                                 </div>
                                 <div className="flex gap-5">
-                                    <a href={githublink}><FiGithub className="text-2xl text-white"/></a>
-                                    <HiOutlineLink className="text-2xl text-white"/>
+                                    <a href={githublink} target="_blank"><FiGithub className="text-2xl text-white cursor-pointer"/></a>
+                                    <a href={projectLink} target="_blank"><HiOutlineLink className="text-2xl text-white cursor-pointer"/></a>
                                 </div>
                             </div>
                         </div>
@@ -85,11 +87,11 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({showRight, image, title,
                         </p>
                     </div>
                     <div className="flex gap-5">
-                        {techStack.map((stack) => <p key={stack}>{stack}</p>)}
+                        {techStack && techStack.map((stack) => <p key={stack}>{stack}</p>)}
                     </div>
                     <div className="flex gap-5">
-                        <a href={githublink}><FiGithub className="text-2xl text-white"/></a>
-                        <HiOutlineLink className="text-2xl text-white"/>
+                        <a href={githublink} target="_blank"><FiGithub className="text-2xl text-white cursor-pointer"/></a>
+                        <a href={projectLink} target="_blank"><HiOutlineLink className="text-2xl text-white cursor-pointer"/></a>
                     </div>
                 </div>
             </div>
