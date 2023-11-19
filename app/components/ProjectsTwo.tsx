@@ -54,7 +54,7 @@ const ProjectsTwo = () => {
                         * Some projects do not allow publish by NDA, if you want to see more{" "}
                         <a href="mailto:darkolawrence@gmail.com" className="text-[#64F4AC] underline cursor-pointer">contact</a>
                     </p>
-                    <a href="/pdf/Resume.pdf" className="mt-5 text-white cursor-pointer">View Full Résumé</a>
+                    <a target="_blank" href="/pdf/Resume.pdf" className="mt-5 text-white cursor-pointer">View Full Résumé</a>
                 </motion.div>
             </div>
         </div>
