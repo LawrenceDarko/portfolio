@@ -20,7 +20,7 @@ const SocialLinks: React.FC<SocialLinksProps> = ({onFooter}) => {
                 <AiFillGithub className="text-white text-[17px] socialIcons"/>
                 {!onFooter && <p>Github</p>}
             </a>
-            <a target="_blank" href="/pdf/Resume.pdf" className="flex flex-row items-center justify-center gap-2 cursor-pointer">
+            <a href="/pdf/Resume.pdf" className="flex flex-row items-center justify-center gap-2 cursor-pointer">
                 <BsFilePdf className="text-white text-[17px] socialIcons"/>
                 {!onFooter && <p>Resume</p>}
             </a>
