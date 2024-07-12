@@ -19,7 +19,7 @@ const Music = () => {
     };
     return (
         <div className='button-52'>
-            <audio ref={audioRef} src="/music/sound.mp3" />
+            <audio ref={audioRef} loop src="/music/sound.mp3" />
             <p className='' onClick={handlePlayPause}>{isPlaying ? 'Sound On' : 'Sound Off'}</p>
         </div>
         // <div className=''>
