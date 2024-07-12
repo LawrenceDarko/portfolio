@@ -8,6 +8,8 @@ import Modal from './components/modal/Modal'
 import { GeneralContextProvider } from './contexts/GeneralContext'
 import { ThemeProvider } from "next-themes"
 import Providers from './components/providers';
+import DancingLines from './components/wavycursor/dancing-lines';
+// import DancingLines from './components/wavycursor';
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -39,6 +41,7 @@ export default function RootLayout({
             <Providers>
                 <Modal />
                 <Navbar />
+                <DancingLines></DancingLines>
                 <Analytics />
                   {children}
               </Providers>

@@ -15,7 +15,7 @@ const Music = () => {
         audioRef.current.play();
         }
         setIsPlaying(!isPlaying);
-    }
+        }
     };
     return (
         <div className='button-52'>
