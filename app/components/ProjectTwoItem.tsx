@@ -55,7 +55,7 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({techStack, showRight, im
         >
             <div ref={ref} className="h-[447px] w-full flex relative">
                 <div className={`${showRight? firstCHoice.imageDiv : secondChoice.imageDiv}`}>
-                    <Link href={`${projectLink}`} rel="noopener noreferrer" target="_blank">
+                    {/* <Link href={`${projectLink}`} rel="noopener noreferrer" target="_blank"> */}
                     <Image fill alt="project image" src={`/images/${image}`} className="relative object-cover w-full h-full"/>
                     <div className="absolute top-0 left-0 w-full h-full backdrop-blur-sm md:backdrop-blur-0 bg-[#000000ac] md:bg-[#64F4AC] bg-opacity-60  md:bg-opacity-40 hover:bg-opacity-0">
                         <div className="relative md:hidden">
@@ -77,7 +77,7 @@ const ProjectTwoItem: React.FC<ProjectTwoItemProps> = ({techStack, showRight, im
                             </div>
                         </div>
                     </div>
-                    </Link>
+                    {/* </Link> */}
                 </div>
                 <div className={`${showRight? firstCHoice.detailsDiv : secondChoice.detailsDiv} hidden`}>
                     <div>
