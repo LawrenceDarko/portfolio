@@ -44,7 +44,7 @@ function Header() {
                             <p className="text-[#92929A]">Experienced software developer dedicated to delivering high-quality code and enhancing user experiences.</p>
                         </div>
                         <div onClick={()=>setShowModal(true)}>
-                            <p className="cursor-pointer glowing-text">A portal to the Multiverse!</p>
+                            <p className="cursor-pointer glowing-text">A portal to the Code-verse!</p>
                         </div>
                         <a href="mailto:darkolawrence@gmail.com" className="text-[#64F4AC] font-normal underline text-xl mb-5 cursor-pointer">LET&apos;S CHAT!</a>
                     </div>
