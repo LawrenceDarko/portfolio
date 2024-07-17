@@ -25,7 +25,7 @@ const ProjectsTwo = () => {
         desc3: '"Netflix Clone" is my fun and boredom-inspired project, a lighthearted replica of the popular streaming platform. It showcases my coding skills and creativity, offering a playful and unique experience. Sit back, relax, and dive into the world of my homemade streaming platform!',
         desc4: "'Payment Pages' is user-friendly software for easy payment collection through shared links. It simplifies group payments, bill splitting, and event organization. Customized links streamline transactions, making the process hassle-free. Experience simplified transactions with friends through PaymentLink, ending complex payment procedures. https://payment-pages.theteller.net",
         desc5: "'Slack Clone' is a robust full-stack application that mirrors Slack's functionalities. Users can create workspaces, establish both public and private channels, and invite members to these channels via email. Real-time chat and direct messaging capabilities empower seamless communication within teams. Built with modern web technologies, SlackClone ensures smooth performance and responsiveness across devices.",
-        desc6: "FinTrack is a powerful financial tracking app that helps users manage their finances effortlessly. Track upcoming bills, transactions, bank accounts, monthly goals, savings, expenses, and assets. The app features a financial AI assistant for personalized insights and provides a detailed monthly expense breakdown. FinTrack offers a seamless and responsive experience across all devices."
+        desc6: "Fynnq is a powerful financial syncing and tracking app that helps users manage their finances effortlessly. Track upcoming bills, transactions, bank accounts, monthly goals, savings, expenses, and assets. The app features a financial AI assistant for personalized insights and provides a detailed monthly expense breakdown. Fynnq offers a seamless and responsive experience across all devices."
     }
 
     return (
@@ -36,7 +36,7 @@ const ProjectsTwo = () => {
                     <p className="text-[#92929A] text-xs md:text-sm">perfect solutions for digital experience</p>
                 </div>
             </div>
-            <ProjectTwoItem image='fintrack.jpg' title="FabTrack" description={descriptions.desc6} projectLink="https://fab-track.vercel.app/" techStack={['Next.js', 'Tailwindcss', 'Node', 'Chart.js', 'Express.js']}/>
+            <ProjectTwoItem image='fintrack.jpg' title="FabTrack" description={descriptions.desc6} projectLink="https://fynnq.vercel.app/" techStack={['Next.js', 'Tailwindcss', 'Node', 'Chart.js', 'Express.js']}/>
             <ProjectTwoItem showRight image='Slack thumb.jpg' title="Slack Clone" description={descriptions.desc5} projectLink="https://slack-clone-frontend.onrender.com/" techStack={['Next.js', 'Tailwindcss', 'Node', 'Nodemailer', 'Socket.IO']}/>
             <ProjectTwoItem image='cariscaa.png' title="CARISCA Lab" description={descriptions.desc2} projectLink="https://cariscalab.netlify.app/" techStack={['React', 'Styled Coomponent', 'Netlify']}/>
             <ProjectTwoItem showRight image="vegancol.png" title="FindVegan" description={descriptions.desc1} projectLink="https://findvegan.netlify.app/" techStack={['React', 'Styled Coomponent', 'Netlify']}/>
