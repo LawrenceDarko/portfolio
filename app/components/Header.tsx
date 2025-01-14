@@ -19,7 +19,7 @@ function Header() {
     }, [isInView, mainControls])
 
     return (
-        <div ref={ref} className="h-full w-full xl:h-[95vh] bg-[#2D2E32] pt-16">
+        <div ref={ref} className="h-full overflow-hidden w-full xl:h-[95vh] bg-[#2D2E32] pt-16">
             <motion.div 
                 variants={{
                     hidden: {opacity: 0, translateY: -50},
