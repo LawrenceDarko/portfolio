@@ -60,7 +60,8 @@ function Header() {
                     </div>
                 </div>
                 <div className="h-[400px] md:h-[610px] w-full md:w-[50%] relative">
-                <Image src="/images/portfolioh.png" height={1000} width={1000} alt="headerImage" className="imgb" />
+                    <Image src="/images/portfolioh.png" height={1000} width={1000} alt="headerImage" className="imgb" />
+                    <div className='absolute h-36 bottom-0 w-full bg-gradient-to-t from-[#2D2E32] to-transparent'></div>
                 </div>
             </motion.div> 
         </div>
