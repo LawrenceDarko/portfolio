@@ -36,7 +36,7 @@ const ProjectsTwo = () => {
                     <p className="text-[#92929A] text-xs md:text-sm">perfect solutions for digital experience</p>
                 </div>
             </div>
-            <ProjectTwoItem image='fintrack.jpg' title="FabTrack" description={descriptions.desc6} projectLink="https://fynnq.vercel.app/" techStack={['Next.js', 'Tailwindcss', 'Node', 'Chart.js', 'Express.js']}/>
+            <ProjectTwoItem image='fintrack.jpg' title="FabTrack" description={descriptions.desc6} projectLink="https://fynnq.com/" techStack={['Next.js', 'Tailwindcss', 'Node', 'Chart.js', 'Express.js']}/>
             <ProjectTwoItem showRight image='Slack thumb.jpg' title="Slack Clone" description={descriptions.desc5} projectLink="https://slack-clone-frontend.onrender.com/" techStack={['Next.js', 'Tailwindcss', 'Node', 'Nodemailer', 'Socket.IO']}/>
             <ProjectTwoItem image='cariscaa.png' title="CARISCA Lab" description={descriptions.desc2} projectLink="https://cariscalab.netlify.app/" techStack={['React', 'Styled Coomponent', 'Netlify']}/>
             <ProjectTwoItem showRight image="vegancol.png" title="FindVegan" description={descriptions.desc1} projectLink="https://findvegan.netlify.app/" techStack={['React', 'Styled Coomponent', 'Netlify']}/>

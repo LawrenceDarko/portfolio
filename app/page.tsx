@@ -29,7 +29,6 @@ export default function Home() {
       {/* <Projects /> */}
       <ProjectsTwo/>
       <Footer />
-      
     </div>
   )
 }
